@@ -4,7 +4,7 @@ A checklist to assist in the source code security analysis of a Node.js web serv
 
 Next documents have been using as main references:
 - The [SANS](https://www.sans.org/) SWAT (Securing Web Applications Technologies) [checklist](https://www.sans.org/security-resources/posters/securing-web-application-technologies-swat/60/download).
-- The CWE(Common Weakness Enumeration) [dictionary](http://cwe.mitre.org/).
+- The CWE (Common Weakness Enumeration) [dictionary](http://cwe.mitre.org/).
 
 >This text aims to be a continuous work in progress community based project. So please feel free to contribute. :)
 
@@ -42,20 +42,22 @@ Next documents have been using as main references:
  - *You should swallow errors silently. This is what lots of people do and it is bad.*
  - *You should let your application crash, log errors and restart your process with - something like upstart, forever or monit. This is pragmatic.*
  - *You should start using domains to handle errors. Clearly the way to go, although this is an experimental feature of Node.", ref: http://shapeshed.com/uncaught-exceptions-in-node/*
-- I think last two cases can be considered safe.
+- Last two cases can be considered safe.
 - **Hapi**: [Poop](https://github.com/hapijs/poop): "hapi plugin for handling uncaught exceptions".
 - Heroku: Auto-restart through the [Dyno crash restart policy](https://devcenter.heroku.com/articles/dynos#dyno-crash-restart-policy).
 - Further reading: About how to handle errors by [Joyent](https://www.joyent.com/) -> http://www.joyent.com/developers/node/design/errors
 
-- **1.7 The content of the errors should avoid to reason about any internal state of the application"**. A common example is a response like: "Invalid login" vs. "User not found". If we use the second we are allowing a possible brute-force of our usernames. ([CWE-203](http://cwe.mitre.org/data/definitions/203.html))
+- **1.7 The content of the errors should avoid to reason about any internal state of the application"**. ([CWE-203](http://cwe.mitre.org/data/definitions/203.html))
 
->- Some modules can help to send consistent ones (easier to reason about).
+>- A common example is a response like: "Invalid login" vs. "User not found". If we use the second we are allowing a possible brute-force of our usernames.
+- Some modules can help to send consistent ones (easier to reason about).
 - ["http-errors"](https://github.com/jshttp/http-errors
 - ["Boom"](https://github.com/hapijs/boom)
 
-- **1.8 The time to return an error should avoid to reason about any internal state of the application"**. A common example is when the combination "username/password" is "good/bad" vs "bad/bad". ([CWE-208](http://cwe.mitre.org/data/definitions/208.html))
+- **1.8 The time to return an error should avoid to reason about any internal state of the application"**. ([CWE-208](http://cwe.mitre.org/data/definitions/208.html))
 
->- To detect it:
+>- A common example is when the combination "username/password" is "good/bad" vs "bad/bad".
+- To detect it:
  - Use this [ESLint](http://eslint.org/) rule : ["detect-possible-timing-attacks"](https://github.com/nodesecurity/eslint-plugin-security/blob/master/rules/detect-possible-timing-attacks.js).
  - Some tools to automate it: [nanown](https://github.com/ecbftw/nanown), [time_trial](https://github.com/dmayer/time_trial)
 - To prevent it use secure libraries to compare like:
