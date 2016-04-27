@@ -543,8 +543,3 @@ var safePath = path.join(safeRoot, path.join('/', unsafePath));
 
 - Authors:
  - Jesús Pérez / [@jesusprubio](https://twitter.com/jesusprubio) ([3nder](https://www.3nderapp.com/))
-
-
-## TODO
-- Add HPKP support: https://github.com/helmetjs/hpkp
-- Review [Lusca](https://github.com/krakenjs/lusca) and add to each section.
