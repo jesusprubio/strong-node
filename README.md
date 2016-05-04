@@ -314,11 +314,12 @@ var safePath = path.join(safeRoot, path.join('/', unsafePath));
 >- Confirm the server is using a correct value for these options when requesting through the [TLS Node.js core module](https://nodejs.org/api/tls.html#tls_tls_connect_options_callback): "rejectUnauthorized" (default:true),"checkServerIdentity", "secureProtocol".
 - A good to verify possible problems is ["sslyze"](https://github.com/iSECPartners/sslyze).
 - A good option: [Let's Encryt](https://letsencrypt.org/about/), an open CA. Automatic HTTPS Certificates for Node.js.
- - **Express** and **Hapi** middleware: [letsencrypt-express](https://github.com/Daplie/letsencrypt-express).
  - *Automatic live renewal.*
  - *On-the-fly HTTPS certificates for Dynamic DNS (in-process, no server restart).*
  - *Works with node cluster out of the box.*
  - *Free SSL (HTTPS Certificates for TLS) 90-day certificates.*
+ - **Express**: [letsencrypt-express](https://github.com/Daplie/letsencrypt-express).
+ - **Hapi** and **Hapi** middleware: [letsencrypt-hapi](https://github.com/Daplie/letsencrypt-hapi).
 
 
 ## 5 Authentication and authorization
