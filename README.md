@@ -162,7 +162,7 @@ Next documents have been using as main references:
 
 >- To detect it use this ESLint rule: ["detect-non-literal-regexp"](https://github.com/nodesecurity/eslint-plugin-security/blob/master/rules/detect-non-literal-regexp.js).
 
-- **2.18 Protection against Cross-Site Request Forgery (CSRF)** enabled. ([CWE-352](http://cwe.mitre.org/data/definitions/352.html))
+- **2.18 Protection against Cross-Site Request Forgery (CSRF)** is enabled. ([CWE-352](http://cwe.mitre.org/data/definitions/352.html))
 
 > - **Express**: [csurf](https://github.com/expressjs/csurf)
 - **Hapi**: [crumb](https://github.com/hapijs/crumb)
@@ -494,7 +494,7 @@ var safePath = path.join(safeRoot, path.join('/', unsafePath));
 
 >- The solution is to block them. So it's better to have an npm/Grunt/Gulp task to do it, ref.: http://blog.npmjs.org/post/141702881055/package-install-scripts-vulnerability
 
-- **7.9 The entries are fuzzed in a regular basis**.
+- **7.9 The user inputs are fuzzed in a regular basis**.
 
 >- A library to help: [Surku](https://github.com/attekett/Surku)
 - Use external libraries like [ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) ([Node.js bindings](https://github.com/zaproxy/zaproxy/tree/develop/nodejs/api/zapv2)).
