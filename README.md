@@ -16,7 +16,7 @@ Next documents have been using as main references:
 
 ### **1.2 Returned errors don't include sensitive information about the environment**: stack, paths, DB queries, etc (CWE-209)
 
-### **1.2.1 The environment variable "NODE_ENV" environment variable is set to "production"**
+#### **1.2.1 The environment variable "NODE_ENV" environment variable is set to "production"**
 
 **Express**:  By default (if not in "production" mode) exposes the stack trace of the error to the client.
 
