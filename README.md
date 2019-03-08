@@ -1,4 +1,4 @@
-# Strong Node
+# Strong node.js
 
 An exhaustive checklist to assist in the source code security analysis of a Node.js web service. It's focused in the server side, in particular, is targeting **[Express](http://expressjs.com/)** and **[Hapi](http://hapijs.com/)** environments.
 
