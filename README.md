@@ -12,7 +12,7 @@ The next documents have been using as main references:
     <img src="https://cdn.pixabay.com/photo/2017/02/18/11/00/checklist-2077020_640.jpg" alt="checklist">
 	</p>
 	<p>
-		<sub>:gift: If you like this project you could follow me on <a href="https://twitter.com/jesusprubio"><code>Twitter</code></a> or send me <a href="https://buymeacoff.ee/jesusprubio"><code>some</code></a> <a href="https://buymeacoff.ee/jesusprubio"><code>love</code></a></sub>
+		<sub>:gift: If you like this project you could follow me on <a href="https://twitter.com/jesusprubio"><code>Twitter</code></a> or send <a href="https://buymeacoff.ee/jesusprubio"><code>some</code></a> <a href="https://buymeacoff.ee/jesusprubio"><code>love</code></a></sub>
 	</p>
 </div>
 
