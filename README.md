@@ -1,6 +1,6 @@
 # Strong node.js
 
-An exhaustive checklist to assist in the source code security analysis of a Node.js web service. Focused in the server side, in particular, targets **[Express](http://expressjs.com/)** and **[Hapi](http://hapijs.com/)** environments.
+An exhaustive checklist to assist in the source code security analysis of a node.js web service. Focused in **[Express](http://expressjs.com)** and **[Hapi](http://hapijs.com)** environments.
 
 Next documents have been using as main references:
 
