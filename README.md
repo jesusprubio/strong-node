@@ -1,14 +1,20 @@
 # Strong node.js
 
-An exhaustive checklist to assist in the source code security analysis of a node.js web service. Focused in **[Express](http://expressjs.com)** and **[Hapi](http://hapijs.com)** environments.
+:muscle: An exhaustive checklist to assist in the source code security analysis of a node.js web service. Focused in **[Express](http://expressjs.com)** and **[Hapi](http://hapijs.com)** environments.
 
-Next documents have been using as main references:
+The next documents have been using as main references:
 
 - The [SANS](https://www.sans.org/) SWAT (Securing Web Applications Technologies) [checklist](https://www.sans.org/security-resources/posters/securing-web-application-technologies-swat/60/download).
 - The CWE (Common Weakness Enumeration) [dictionary](http://cwe.mitre.org/).
 
->This text aims to be a continuous work in progress community based project. So please feel free to contribute. :)
-
+<div align="center">
+	<p>
+    <img src="https://cdn.pixabay.com/photo/2017/02/18/11/00/checklist-2077020_640.jpg" alt="checklist">
+	</p>
+	<p>
+		<sub>:gift: If you like this project you could follow me on <a href="https://twitter.com/jesusprubio"><code>Twitter</code></a> or send me <a href="https://buymeacoff.ee/jesusprubio"><code>some</code></a> <a href="https://buymeacoff.ee/jesusprubio"><code>:heart_eyes_cat:</code></a></sub>
+	</p>
+</div>
 
 ## 1 Errors
 
@@ -619,10 +625,6 @@ Apply this methodology ;).
 
 ## License
 
-[<img src="http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.eu.png" height="40" alt="CC BY-NC SA 3.0">](https://creativecommons.org/licenses/by-nc-sa/3.0/)
+[![Creative Commons License](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](http://creativecommons.org/licenses/by/4.0)
 
-### Author
-
-- Jesús Pérez
-- jesusprubio@fsf.org
-- [@jesusprubio](https://twitter.com/jesusprubio)
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0)
