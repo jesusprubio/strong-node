@@ -16,7 +16,7 @@ The next documents have been using as main references:
 	</p>
 </div>
 
-Related: :skull: [Awesome Node.js for penetration testers](https://github.com/jesusprubio/awesome-nodejs-pentest)
+Related: :crossbones: [Awesome Node.js for penetration testers](https://github.com/jesusprubio/awesome-nodejs-pentest)
 
 ## 1 Errors
 
