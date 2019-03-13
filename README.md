@@ -16,6 +16,8 @@ The next documents have been using as main references:
 	</p>
 </div>
 
+Related: [Awesome Node.js for penetration testers](https://github.com/jesusprubio/awesome-nodejs-pentest)
+
 ## 1 Errors
 
 ### **1.1 Returned errors don't include sensitive information about the user** or other user's info ([CWE-209](http://cwe.mitre.org/data/definitions/209.html))
