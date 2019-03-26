@@ -89,7 +89,7 @@ Related: :skull_and_crossbones: [Awesome Node.js for penetration testers](https:
 
 - Control all our errors, massaging them if needed to avoid the risks commented in these last points.
 - Use mature modules.
-- Use secure modules. Add checks to your development workflow with a tool like [audit-ci](https://github.com/IBM/audit-ci).
+- Use secure modules. Add checks to your development workflow with a tool like [audit-ci](https://github.com/IBM/audit-ci) or [auditjs](https://github.com/OSSIndex/auditjs).
 
 ## 2 Input and output
 
@@ -554,7 +554,7 @@ The basic idea is to use a secure method (random and enough length) to generate 
 
 ### **7.3 Check for dependencies with known vulnerabilities** is included in the CI
 
-A tool like [audit-ci](https://github.com/IBM/audit-ci) helps.
+Tools like [audit-ci](https://github.com/IBM/audit-ci) or [auditjs](https://github.com/OSSIndex/auditjs) help with this.
 
 ### **7.4 Check for non updated dependencies** is included in the CI
 
