@@ -1,6 +1,6 @@
 # Strong Node.js
 
-:muscle: Exhaustive checklist to assist in a security review of a [Node.js](https://nodejs.org) web service code. Focused in **[Express](http://expressjs.com)** and **[Hapi](http://hapijs.com)** environments.
+:muscle: Exhaustive checklist to assist in a security review of a [Node.js](https://nodejs.org) web service code. Focused on **[Express](http://expressjs.com)** and **[Hapi](http://hapijs.com)** environments.
 
 The next documents have been using as main references:
 
