@@ -9,7 +9,7 @@ The next documents have been using as main references:
 
 <div align="center">
 	<p>
-    <img src="https://cdn.pixabay.com/photo/2017/02/18/11/00/checklist-2077020_640.jpg" alt="checklist">
+    <img src="https://i.ibb.co/7vqSK2C/undraw-to-do-list-a49b.png" alt="checklist">
 	</p>
 	<p>
 		<sub>:gift: Ping me on <a href="https://twitter.com/jesusprubio"><code>Twitter</code></a> if you like this project</sub>
