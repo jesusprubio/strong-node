@@ -1,30 +1,30 @@
 'use strict'
 
-const Hapi = require('hapi');
+const Hapi = require('@hapi/hapi');
 
-const server = new Hapi.Server();
+const init = async () => {
 
+    const server = Hapi.server({
+        port: 3000,
+        host: 'localhost'
+    });
 
-server.connection({
-  host: 'localhost',
-  port: 3000,
-});
+    server.route({
+      method: 'GET',
+      path: '/',
+      handler: () => 'Hi world!!'
+    });
 
-server.route({
-  method: 'GET',
-  path: '/',
-  handler: (req, rep) => reply('Hi world!'),
-});
+    server.route({
+      method: 'GET',
+      path: '/break',
+      handler: () => {
+        throw new Error('Oh no!');
+      }
+    });
 
-server.route({
-  method: 'GET',
-  path: '/break',
-  handler: (req, rep) => { throw new Error('Oh no!'); },
-});
+    await server.start();
+    console.log(`Listening on: ${server.info.uri}`);
+};
 
-
-server.start((err) => {
-  if (err) { throw err; }
-
-  console.log(`Listening on: ${server.info.uri}`);
-});
+init();
