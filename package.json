@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
-    "hapi": "^18.0.0"
+    "express": "^4.17.1",
+    "hapi": "^18.1.0"
   }
 }
